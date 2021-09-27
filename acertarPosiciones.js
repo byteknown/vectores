@@ -16,9 +16,6 @@ do{
 }while(random2 == random);
 cadena.fill("O", random2-1, random2);
 
-console.log(random);
-console.log(random2);
-console.log(cadena);
 
 for(let i=0;i<5;i++)
 {
