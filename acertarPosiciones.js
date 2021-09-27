@@ -9,9 +9,6 @@ for(let i=0;i<10;i++)
     cadena.push("X");
 }
 
-console.log(cadena);
-
-
 random = Math.floor((Math.random()*(10-1+1))+1);
 cadena.fill("O", random-1, random);
 do{
